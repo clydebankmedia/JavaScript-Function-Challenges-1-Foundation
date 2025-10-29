@@ -213,41 +213,4 @@ function multiplyAll(nums) {
 
 
 
-<details><summary>The Echo Chamber</summary>
-
-```jsx
-/*
-  Function: repeatWord(word, n)
-  Purpose: Repeat a word n times, separated by spaces.
-
-  Input:
-    - word: a string
-    - n: a positive number
-  Output:
-    - A single string with the word repeated n times
-
-  Note:
-    Shows how to use loops to build a string step-by-step.
-    Adds a space between each word except the first.
-*/
-
-function repeatWord(word, n) {
-  if (n <= 0) {
-    return "";
-  }
-
-  let result = "";
-  for (let i = 1; i <= n; i = i + 1) {
-    if (i > 1) {
-      result = result + " ";
-    }
-    result = result + word;
-  }
-  return result;
-}
-
-```
-</details>
-
-
 
